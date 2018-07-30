@@ -1,10 +1,10 @@
 <?php
 
   //DB Params
-  define('DB_HOST', 'database');
-  define('DB_USER', 'lamp');
-  define('DB_PASS', 'lamp');
-  define('DB_NAME', 'lamp');
+  define('DB_HOST', $_ENV['DB_HOST']);
+  define('DB_USER', $_ENV['DB_USER']);
+  define('DB_PASS', $_ENV['DB_PASS']);
+  define('DB_NAME', $_ENV['DB_NAME']);
   
   
   
@@ -16,4 +16,4 @@
   define('URLROOT', $_SERVER['SERVER_NAME']);
 
   // Site Name
-  define('SITENAME', 'VA-MVC');
+  define('SITENAME', $_ENV['SITENAME']);

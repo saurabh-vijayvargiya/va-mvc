@@ -2,14 +2,12 @@
 
   class Pages extends Controller {
     public function __construct() {
-      $this->pageModel = $this->model('Page');
+      // Initialize the model here.
     }
 
     public function index() {
-      $pages = $this->pageModel->getPages();
       $data = [
-        'title' => 'VA-MVC',
-        'pages' => $pages
+        'title' => 'VA-MVC'
       ];
       $this->view('pages/index', $data);
     }
