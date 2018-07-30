@@ -6,8 +6,10 @@
     }
 
     public function index() {
+      $pages = $this->pageModel->getPages();
       $data = [
         'title' => 'VA-MVC',
+        'pages' => $pages
       ];
       $this->view('pages/index', $data);
     }
