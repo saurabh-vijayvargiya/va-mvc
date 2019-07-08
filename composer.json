@@ -1,0 +1,14 @@
+{
+    "name": "saurabh-vijayvargiya/va-mvc",
+    "description": "This is a project which I created to learn about MVC in php.",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "authors": [
+        {
+            "name": "Saurabh Vijayvargiya",
+            "email": "saurabhvv0808@gmail.com"
+        }
+    ]
+}
